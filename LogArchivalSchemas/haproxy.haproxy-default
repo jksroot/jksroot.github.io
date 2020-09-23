@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "name": "haproxy.haproxy-default",
+  "namespace": "logarchiver",
+  "fields": [
+    {
+      "name": "_tag_Name",
+      "type": "string"
+    },
+    {
+      "name": "node",
+      "type": "string"
+    },
+    {
+      "name": "_tag_uuid",
+      "type": "string"
+    },
+    {
+      "name": "_tag_appName",
+      "type": "string"
+    },
+    {
+      "name": "_tag_projectName",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": "double"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    },
+    {
+      "name": "@timestamp",
+      "type": "string"
+    }
+  ]
+}

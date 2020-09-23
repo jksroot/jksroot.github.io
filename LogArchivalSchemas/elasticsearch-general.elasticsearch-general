@@ -1,0 +1,51 @@
+{
+  "type": "record",
+  "name": "elasticsearch-general.elasticsearch-general",
+  "namespace": "logarchiver",
+  "fields": [
+    {
+      "name": "_tag_Name",
+      "type": "string"
+    },
+    {
+      "name": "node",
+      "type": "string"
+    },
+    {
+      "name": "_tag_uuid",
+      "type": "string"
+    },
+    {
+      "name": "_tag_appName",
+      "type": "string"
+    },
+    {
+      "name": "_tag_projectName",
+      "type": "string"
+    },
+    {
+      "name": "level",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": "double"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    },
+    {
+      "name": "@timestamp",
+      "type": "string"
+    },
+    {
+      "name": "file",
+      "type": "string"
+    },
+    {
+      "name": "logging_class",
+      "type": "string"
+    }
+  ]
+}

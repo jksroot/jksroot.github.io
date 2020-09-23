@@ -1,0 +1,51 @@
+{
+  "type": "record",
+  "name": "mysql-general.mysqlAccessLogs",
+  "namespace": "logarchiver",
+  "fields": [
+    {
+      "name": "_tag_Name",
+      "type": "string"
+    },
+    {
+      "name": "node",
+      "type": "string"
+    },
+    {
+      "name": "_tag_uuid",
+      "type": "string"
+    },
+    {
+      "name": "_tag_appName",
+      "type": "string"
+    },
+    {
+      "name": "_tag_projectName",
+      "type": "string"
+    },
+    {
+      "name": "command",
+      "type": "string"
+    },
+    {
+      "name": "event_time",
+      "type": "double"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    },
+    {
+      "name": "@timestamp",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "Offset",
+      "type": "string"
+    }
+  ]
+}
